@@ -32,11 +32,11 @@ public class MainActivity extends AppCompatActivity {
 
             campoUsuario=findViewById(R.id.editTextUser);
             campoPass=findViewById(R.id.editTextPassword);
-            txtPass=findViewById(R.id.textViewPass);
             txtUsuario=findViewById(R.id.textViewUser);
+            txtPass=findViewById(R.id.textViewPass);
 
 
-            //llamar a la función cargar preferencias
+            //llamar a la función cargar preferencias para mostrar nada más abrir la app
             cargarPreferencias();
         });
     }
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    /*// SHARED PREFERENCES
+    // SHARED PREFERENCES
     public  void onClick(View view) {
 
         switch (view.getId()) {
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
         }
-    }*/
+    }
 
     private void cargarPreferencias() {
         SharedPreferences preferences = getSharedPreferences("credenciales", MODE_PRIVATE);

@@ -1,6 +1,8 @@
 package com.example.ejemplos;
 
-public class ConsultaPreferencias extends MainActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ConsultaPreferencias extends AppCompatActivity {
 
 
 }
