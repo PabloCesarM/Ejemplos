@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
 
-/*
+
             campoUsuario=findViewById(R.id.editTextUser);
             campoPass=findViewById(R.id.editTextPassword);
             txtPass=findViewById(R.id.textViewPass);
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             //llamar a la función cargar preferencias
-            cargarPreferencias();*/
+            cargarPreferencias();
         });
     }
 
